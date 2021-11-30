@@ -31,8 +31,6 @@ describe("conduit script", () => {
     );
   });
   it("Delete old article", async () => {
-    // await browser.$("=Global Feed").click();
-    // await browser.pause(2000);
     await browser.$("h1*=Agile").click();
     await browser.waitUntil(
       async () =>
