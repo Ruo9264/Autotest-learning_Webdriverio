@@ -19,6 +19,5 @@ describe("Sign in the account", () => {
         timeoutMsg: "wait the page load extremely and successfully sign in",
       }
     );
-
   });
 });
