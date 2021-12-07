@@ -1,4 +1,5 @@
 const Page = require('./page');
+const SigninPage = require("../page object/Sign.in.page") ;
 
 class NewArticlePage extends Page {
     get btnNewArticle() {
@@ -19,8 +20,15 @@ class NewArticlePage extends Page {
     get btnPublish(){return $("<button>")};
 //open 只能直接打开网页，还需要登录blabla，那page object的意义在哪里
     async open() {
-        await super.open();
-        await browser.pause(3000);
+        await SigninPage.open();
+        await SigninPage.signin("roy@9264.com", "Roy9264786");
+        await browser.waitUntil(
+            async () => (await browser.$("=Roy").getText()) === "Roy",
+            {
+                timeout: 3000,
+                timeoutMsg: "wait the page load extremely and successfully sign in",
+            }
+        );
         await this.btnNewArticle.click();
     }
 
