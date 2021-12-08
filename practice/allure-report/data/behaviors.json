@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should deny access with wrong info",
+    "uid" : "2a24f8300bac8a2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638947810931,
+      "stop" : 1638947818792,
+      "duration" : 7861
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.93" ]
+  }, {
+    "name" : "should allow access with correct info",
+    "uid" : "3ec13f7c4c07ccc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638947818792,
+      "stop" : 1638947823271,
+      "duration" : 4479
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.93" ]
+  } ]
+}

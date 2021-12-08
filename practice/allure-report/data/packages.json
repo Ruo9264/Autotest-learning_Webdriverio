@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Sign in the account",
+    "children" : [ {
+      "name" : "should deny access with wrong info",
+      "uid" : "2a24f8300bac8a2b",
+      "parentUid" : "e7ff9dd0451ac5f9825503eb2f4f56fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638947810931,
+        "stop" : 1638947818792,
+        "duration" : 7861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    }, {
+      "name" : "should allow access with correct info",
+      "uid" : "3ec13f7c4c07ccc1",
+      "parentUid" : "e7ff9dd0451ac5f9825503eb2f4f56fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638947818792,
+        "stop" : 1638947823271,
+        "duration" : 4479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    } ],
+    "uid" : "e7ff9dd0451ac5f9825503eb2f4f56fd"
+  } ]
+}

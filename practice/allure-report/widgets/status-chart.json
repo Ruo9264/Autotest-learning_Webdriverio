@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3ec13f7c4c07ccc1",
+  "name" : "should allow access with correct info",
+  "time" : {
+    "start" : 1638947818792,
+    "stop" : 1638947823271,
+    "duration" : 4479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a24f8300bac8a2b",
+  "name" : "should deny access with wrong info",
+  "time" : {
+    "start" : 1638947810931,
+    "stop" : 1638947818792,
+    "duration" : 7861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

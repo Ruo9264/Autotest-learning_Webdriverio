@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Sign in the account",
+    "children" : [ {
+      "name" : "should deny access with wrong info",
+      "uid" : "2a24f8300bac8a2b",
+      "parentUid" : "69f58eeed6ecfef7e4e35e64a5d7b958",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638947810931,
+        "stop" : 1638947818792,
+        "duration" : 7861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    }, {
+      "name" : "should allow access with correct info",
+      "uid" : "3ec13f7c4c07ccc1",
+      "parentUid" : "69f58eeed6ecfef7e4e35e64a5d7b958",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638947818792,
+        "stop" : 1638947823271,
+        "duration" : 4479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    } ],
+    "uid" : "69f58eeed6ecfef7e4e35e64a5d7b958"
+  } ]
+}
