@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639126890527' stop='1639126890528'>
+    <name>post comment</name>
+    <title>post comment</title>
+    <test-cases>
+        <test-case start='1639126890527' status='pending' stop='1639126890527'>
+            <name>post a blank comment</name>
+            <title>post a blank comment</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+{
+  "uid" : "75ed0d04bdf2713e",
+  "name" : "successfully sign up the account",
+  "fullName" : "Sign up the account.successfully sign up the account",
+  "historyId" : "6f678dea9039ab6f0c7b1cb3e772ae1",
+  "time" : {
+    "start" : 1639127867578,
+    "stop" : 1639127873580,
+    "duration" : 6002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfully sign up the account"
+  }, {
+    "name" : "package",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75ed0d04bdf2713e.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

@@ -1,4 +1,3 @@
-
 const allure = require('allure-commandline')
 exports.config = {
     //
@@ -134,29 +133,34 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['allure'],
 
-    onComplete: function() {
-        const reportError = new Error('Could not generate Allure report')
-        const generation = allure(['generate', 'allure-results', '--clean'])
-        return new Promise((resolve, reject) => {
-            const generationTimeout = setTimeout(
-                () => reject(reportError),
-                5000)
+        reporters: [['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+        }]],
+        onComplete: function() {
+                        const reportError = new Error('Could not generate Allure report')
+                        const generation = allure(['generate', 'allure-results', '--clean'])
+                        return new Promise((resolve, reject) => {
+                            const generationTimeout = setTimeout(
+                                () => reject(reportError),
+                                5000)
 
-            generation.on('exit', function(exitCode) {
-                clearTimeout(generationTimeout)
+                    generation.on('exit', function(exitCode) {
+                        clearTimeout(generationTimeout)
 
-                if (exitCode !== 0) {
-                    return reject(reportError)
-                }
+                        if (exitCode !== 0) {
+                            return reject(reportError)
+                        }
 
-                console.log('Allure report successfully generated')
-                resolve()
-            })
-        })
-    },
-    
+                        console.log('Allure report successfully generated')
+                        resolve()
+                    })
+                })
+            },
+
+
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -249,8 +253,11 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+        if (!passed) {
+            await browser.takeScreenshot();
+        }
+    },
 
 
     /**

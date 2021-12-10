@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639106354901' stop='1639106359647'>
+    <name>write new articles</name>
+    <title>write new articles</title>
+    <test-cases>
+        <test-case start='1639106354901' status='broken' stop='1639106359646'>
+            <name>successfully write a new article</name>
+            <title>successfully write a new article</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:15:26)
+                    at async New_article_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/new_article_page.js:23:9)
+                    at async Context.&lt;anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/new_article.js:5:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

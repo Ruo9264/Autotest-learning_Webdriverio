@@ -1,0 +1,46 @@
+{
+  "uid" : "7ebe3d5db52fc09",
+  "name" : "post a blank comment",
+  "fullName" : "post comment.post a blank comment",
+  "historyId" : "2a79fbffe472c149e5c00c67d9366de2",
+  "time" : {
+    "start" : 1639126695338,
+    "stop" : 1639126695339,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "post comment"
+  }, {
+    "name" : "testClass",
+    "value" : "post comment"
+  }, {
+    "name" : "testMethod",
+    "value" : "post a blank comment"
+  }, {
+    "name" : "package",
+    "value" : "post comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ebe3d5db52fc09.json",
+  "parameterValues" : [ ]
+}

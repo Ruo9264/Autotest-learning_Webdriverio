@@ -1,0 +1,126 @@
+{
+  "uid" : "e020b8e05f4fbde2",
+  "name" : "post a thank comment",
+  "fullName" : "post comment.post a thank comment",
+  "historyId" : "50073f20d185c8094132d0ba5874a017",
+  "time" : {
+    "start" : 1639129945345,
+    "stop" : 1639129948478,
+    "duration" : 3133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "post comment"
+  }, {
+    "name" : "testClass",
+    "value" : "post comment"
+  }, {
+    "name" : "testMethod",
+    "value" : "post a thank comment"
+  }, {
+    "name" : "package",
+    "value" : "post comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e431ec7eb0ad4d8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639129891746,
+        "stop" : 1639129894867,
+        "duration" : 3121
+      }
+    }, {
+      "uid" : "8487594512892c54",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"[placeholder='Write a comment...']\" because element wasn't found",
+      "time" : {
+        "start" : 1639129855325,
+        "stop" : 1639129865522,
+        "duration" : 10197
+      }
+    }, {
+      "uid" : "48ecea84de07f0a1",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"=Global Feed\" because element wasn't found",
+      "time" : {
+        "start" : 1639129681390,
+        "stop" : 1639129691602,
+        "duration" : 10212
+      }
+    }, {
+      "uid" : "ce53004899d012aa",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"=Sign in\" because element wasn't found",
+      "time" : {
+        "start" : 1639128133299,
+        "stop" : 1639128146628,
+        "duration" : 13329
+      }
+    }, {
+      "uid" : "fe08ab376c0a4e0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639126788245,
+        "stop" : 1639126802216,
+        "duration" : 13971
+      }
+    }, {
+      "uid" : "712f8f8f3f66a73a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639126695339,
+        "stop" : 1639126710269,
+        "duration" : 14930
+      }
+    }, {
+      "uid" : "6ca8ebdb8bb1dba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639125842329,
+        "stop" : 1639125855454,
+        "duration" : 13125
+      }
+    }, {
+      "uid" : "197900a75b77b9d7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"<button>=Post Comment\" because element wasn't found",
+      "time" : {
+        "start" : 1639125777193,
+        "stop" : 1639125797909,
+        "duration" : 20716
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e020b8e05f4fbde2.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

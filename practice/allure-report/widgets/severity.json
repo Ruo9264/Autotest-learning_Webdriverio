@@ -1,20 +1,160 @@
 [ {
-  "uid" : "2a24f8300bac8a2b",
-  "name" : "should deny access with wrong info",
+  "uid" : "bf6c15b66fd0bfc",
+  "name" : "like article",
   "time" : {
-    "start" : 1638947810931,
-    "stop" : 1638947818792,
-    "duration" : 7861
+    "start" : 1639121025658,
+    "stop" : 1639121041877,
+    "duration" : 16219
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3ec13f7c4c07ccc1",
+  "uid" : "75ed0d04bdf2713e",
+  "name" : "successfully sign up the account",
+  "time" : {
+    "start" : 1639127867578,
+    "stop" : 1639127873580,
+    "duration" : 6002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf108e4b3e672cb2",
+  "name" : "write a new article",
+  "time" : {
+    "start" : 1639018305071,
+    "stop" : 1639018319416,
+    "duration" : 14345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "743fd6a639731ae9",
+  "name" : "failed sign up with repeated username",
+  "time" : {
+    "start" : 1639127857584,
+    "stop" : 1639127862100,
+    "duration" : 4516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b634e6ccfa9b2317",
+  "name" : "like article",
+  "time" : {
+    "start" : 1639129586267,
+    "stop" : 1639129598055,
+    "duration" : 11788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b5263fd07acce44",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1639017235010,
+    "stop" : 1639017258108,
+    "duration" : 23098
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a5e7ecbe433eaaf3",
+  "name" : "delete first article",
+  "time" : {
+    "start" : 1639129515796,
+    "stop" : 1639129528014,
+    "duration" : 12218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cece23a62938fcd",
+  "name" : "successfully write a new article",
+  "time" : {
+    "start" : 1639129313938,
+    "stop" : 1639129327965,
+    "duration" : 14027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8efb7b90c24734ed",
   "name" : "should allow access with correct info",
   "time" : {
-    "start" : 1638947818792,
-    "stop" : 1638947823271,
-    "duration" : 4479
+    "start" : 1639128002428,
+    "stop" : 1639128006827,
+    "duration" : 4399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1caa39c1a912600e",
+  "name" : "failed sign up with repeated username and email",
+  "time" : {
+    "start" : 1639127851347,
+    "stop" : 1639127857584,
+    "duration" : 6237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfdfa18db63d4321",
+  "name" : "failed sign up with repeated email",
+  "time" : {
+    "start" : 1639127862100,
+    "stop" : 1639127867578,
+    "duration" : 5478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e34249c596f5ba4",
+  "name" : "post a blank comment",
+  "time" : {
+    "start" : 1639126890527,
+    "stop" : 1639126890527,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d5a2ed932c8d8a4d",
+  "name" : "edit article",
+  "time" : {
+    "start" : 1639129371043,
+    "stop" : 1639129387049,
+    "duration" : 16006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d1f45ed1187c5db",
+  "name" : "post a blank comment",
+  "time" : {
+    "start" : 1639129931862,
+    "stop" : 1639129945344,
+    "duration" : 13482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9f6003343ed355f",
+  "name" : "should deny access with wrong info",
+  "time" : {
+    "start" : 1639127995517,
+    "stop" : 1639128002428,
+    "duration" : 6911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e020b8e05f4fbde2",
+  "name" : "post a thank comment",
+  "time" : {
+    "start" : 1639129945345,
+    "stop" : 1639129948478,
+    "duration" : 3133
   },
   "status" : "passed",
   "severity" : "normal"

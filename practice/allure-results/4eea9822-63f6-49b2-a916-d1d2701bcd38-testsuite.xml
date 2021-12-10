@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639121025657' stop='1639121041878'>
+    <name>like/edit/delete article and comment</name>
+    <title>like/edit/delete article and comment</title>
+    <test-cases>
+        <test-case start='1639121025658' status='passed' stop='1639121041877'>
+            <name>like article</name>
+            <title>like article</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

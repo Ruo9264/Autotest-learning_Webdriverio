@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=96.0.4664.93)",
+      "children" : [ {
+        "name" : "should login with valid credentials",
+        "uid" : "6b5263fd07acce44",
+        "parentUid" : "1b9abe72f4985ca6f6252c8aab41a71f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639017235010,
+          "stop" : 1639017258108,
+          "duration" : 23098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.93" ]
+      } ],
+      "uid" : "1b9abe72f4985ca6f6252c8aab41a71f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

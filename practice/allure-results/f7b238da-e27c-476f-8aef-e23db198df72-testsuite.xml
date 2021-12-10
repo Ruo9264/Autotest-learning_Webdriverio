@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639127338278' stop='1639127364618'>
+    <name>Sign up the account</name>
+    <title>Sign up the account</title>
+    <test-cases>
+        <test-case start='1639127338278' status='failed' stop='1639127354004'>
+            <name>failed sign up with repeated username and email</name>
+            <title>failed sign up with repeated username and email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`.error-messages`) to have text
+                
+                - Expected  - 0
+                + Received  + 1
+                
+                + email has already been taken
+                  username has already been taken</message>
+                <stack-trace>Error: Expect $(`.error-messages`) to have text
+                
+                - Expected  - 0
+                + Received  + 1
+                
+                + email has already been taken
+                  username has already been taken
+                    at Context.&lt;anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_up.js:7:44)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639127354004' status='passed' stop='1639127359629'>
+            <name>failed sign up with repeated username</name>
+            <title>failed sign up with repeated username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639127359630' status='passed' stop='1639127364618'>
+            <name>failed sign up with repeated email</name>
+            <title>failed sign up with repeated email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

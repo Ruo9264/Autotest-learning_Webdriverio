@@ -1,0 +1,56 @@
+{
+  "uid" : "ef5c3a8019c22808",
+  "name" : "failed sign up with repeated username",
+  "fullName" : "Sign up the account.failed sign up with repeated username",
+  "historyId" : "ac58c9e43889dafba7a4fcbf7cada14",
+  "time" : {
+    "start" : 1639127443341,
+    "stop" : 1639127448517,
+    "duration" : 5176
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed sign up with repeated username"
+  }, {
+    "name" : "package",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef5c3a8019c22808.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

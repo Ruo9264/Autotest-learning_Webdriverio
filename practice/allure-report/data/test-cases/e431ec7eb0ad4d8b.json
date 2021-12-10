@@ -1,0 +1,56 @@
+{
+  "uid" : "e431ec7eb0ad4d8b",
+  "name" : "post a thank comment",
+  "fullName" : "post comment.post a thank comment",
+  "historyId" : "50073f20d185c8094132d0ba5874a017",
+  "time" : {
+    "start" : 1639129891746,
+    "stop" : 1639129894867,
+    "duration" : 3121
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "post comment"
+  }, {
+    "name" : "testClass",
+    "value" : "post comment"
+  }, {
+    "name" : "testMethod",
+    "value" : "post a thank comment"
+  }, {
+    "name" : "package",
+    "value" : "post comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e431ec7eb0ad4d8b.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "7cece23a62938fcd",
+  "name" : "successfully write a new article",
+  "fullName" : "write new articles.successfully write a new article",
+  "historyId" : "923de98728c13382235073c0407e58c",
+  "time" : {
+    "start" : 1639129313938,
+    "stop" : 1639129327965,
+    "duration" : 14027
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfully write a new article"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34a501fb2b2c16dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639120684485,
+        "stop" : 1639120697170,
+        "duration" : 12685
+      }
+    }, {
+      "uid" : "172d7c65f0dcce28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639120581252,
+        "stop" : 1639120596219,
+        "duration" : 14967
+      }
+    }, {
+      "uid" : "7d77a95b332d2a51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639106722501,
+        "stop" : 1639106735587,
+        "duration" : 13086
+      }
+    }, {
+      "uid" : "f9acd7cadb1558bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639106639595,
+        "stop" : 1639106651959,
+        "duration" : 12364
+      }
+    }, {
+      "uid" : "3c9c21b9d9a0a0ff",
+      "status" : "broken",
+      "statusDetails" : "this.btnSignin.click is not a function",
+      "time" : {
+        "start" : 1639106570020,
+        "stop" : 1639106574181,
+        "duration" : 4161
+      }
+    }, {
+      "uid" : "b0f87e12fdd2d98",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'click')",
+      "time" : {
+        "start" : 1639106354901,
+        "stop" : 1639106359646,
+        "duration" : 4745
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cece23a62938fcd.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "4e34249c596f5ba4",
+  "name" : "post a blank comment",
+  "fullName" : "post comment.post a blank comment",
+  "historyId" : "2a79fbffe472c149e5c00c67d9366de2",
+  "time" : {
+    "start" : 1639126890527,
+    "stop" : 1639126890527,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "post comment"
+  }, {
+    "name" : "testClass",
+    "value" : "post comment"
+  }, {
+    "name" : "testMethod",
+    "value" : "post a blank comment"
+  }, {
+    "name" : "package",
+    "value" : "post comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c7e53bd21342dbc",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1639126788245,
+        "stop" : 1639126788245,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ebe3d5db52fc09",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1639126695338,
+        "stop" : 1639126695339,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e34249c596f5ba4.json",
+  "parameterValues" : [ ]
+}

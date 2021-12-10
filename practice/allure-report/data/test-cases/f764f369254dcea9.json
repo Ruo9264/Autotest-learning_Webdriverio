@@ -1,0 +1,58 @@
+{
+  "uid" : "f764f369254dcea9",
+  "name" : "post a blank comment",
+  "fullName" : "post comment.post a blank comment",
+  "historyId" : "3d8f67a29f6695077168e045f616b10e",
+  "time" : {
+    "start" : 1639129854939,
+    "stop" : 1639129855325,
+    "duration" : 386
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "ArticlecatalogPage.account is not a function",
+  "statusTrace" : "TypeError: ArticlecatalogPage.account is not a function\n                    at Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/post_comment.js:6:34)\n                    at Context.executeAsync (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "post comment"
+  }, {
+    "name" : "testClass",
+    "value" : "post comment"
+  }, {
+    "name" : "testMethod",
+    "value" : "post a blank comment"
+  }, {
+    "name" : "package",
+    "value" : "post comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f764f369254dcea9.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639125271146' stop='1639125283444'>
+    <name>edit article</name>
+    <title>edit article</title>
+    <test-cases>
+        <test-case start='1639125271146' status='broken' stop='1639125283444'>
+            <name>edit article</name>
+            <title>edit article</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.inputTags.setValue is not a function</message>
+                <stack-trace>TypeError: this.inputTags.setValue is not a function
+                    at New_article_page.writetags (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/new_article_page.js:30:30)
+                    at Context.&lt;anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/edit_article.js:21:30)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

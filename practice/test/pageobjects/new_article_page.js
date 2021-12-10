@@ -1,24 +1,18 @@
 const Page = require('./page');
-const SigninPage = require("./sign_in_page") ;
+const SigninPage = require("./sign_in_page");
 
 class New_article_page extends Page {
-    get btnNewArticle() {
-        return browser.$('=New Article')
-    };
-    get inputTitle() {
-        return $("[placeholder = 'Article Title']")
-    };
-    get inputDescription() {
-        return $("[formcontrolname = 'description']")
-    };
-    get inputContent() {
-        return $("[placeholder = 'Write your article (in markdown)']")
-    };
-    get inputTags() {
-        return $("[placeholder = 'Enter tags']")
-    };
-    get btnPublish(){return $("<button>")};
-//open 只能直接打开网页，还需要登录blabla，那page object的意义在哪里
+    constructor() {
+        super();
+        this.btnNewArticle = () => browser.$('=New Article');
+        this.inputTitle = () => browser.$("[placeholder = 'Article Title']");
+        this.inputDescription = () => browser.$("[formcontrolname = 'description']");
+        this.inputContent = () => browser.$("[placeholder = 'Write your article (in markdown)']");
+        this.inputTags = () => browser.$("[placeholder = 'Enter tags']");
+        this.btnPublish = () => browser.$("<button>");
+        this.delTags = (j) => browser.$(".tag-default:nth-child(" + j + ")").$("<i>");
+    }
+
     async open() {
         await SigninPage.open();
         await SigninPage.signin("roy@9264.com", "Roy9264786");
@@ -28,22 +22,29 @@ class New_article_page extends Page {
                 timeout: 3000,
                 timeoutMsg: "wait the page load extremely and successfully sign in",
             }
-        );
-        await this.btnNewArticle.click();
+        )
+        await this.btnNewArticle().click();
     }
 
     async writetags(tags) {
-        await this.inputTags.setValue(tags);
+        await this.inputTags().setValue(tags);
         await browser.keys("\uE007");
         await browser.pause(500);
     }
 
-    async writearticle(title,description,content){
-        await this.inputTitle.setValue(title);
-        await this.inputDescription.setValue(description);
-        await this.inputContent.setValue(content);
+    async deletetags(j) {
+        await this.delTags(j).click();
     }
 
-    async publisharticle(){await this.btnPublish.click()}
+    async writearticle(title, description, content) {
+        await this.inputTitle().setValue(title);
+        await this.inputDescription().setValue(description);
+        await this.inputContent().setValue(content);
+    }
+
+    async publisharticle() {
+        await this.btnPublish().click()
+    }
 }
+
 module.exports = new New_article_page();

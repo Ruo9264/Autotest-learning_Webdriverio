@@ -1,0 +1,135 @@
+{
+  "uid" : "6b5263fd07acce44",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "1b1ff1f35cb535c530056f81f81c8ee3",
+  "time" : {
+    "start" : 1639017235010,
+    "stop" : 1639017258108,
+    "duration" : 23098
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=96.0.4664.93)",
+  "statusTrace" : "0   chromedriver                        0x0000000106115bc9 __gxx_personality_v0 + 573977\n                1   chromedriver                        0x00000001060a29a3 __gxx_personality_v0 + 102387\n                2   chromedriver                        0x0000000105c64488 chromedriver + 173192\n                3   chromedriver                        0x0000000105c45194 chromedriver + 45460\n                4   chromedriver                        0x0000000105cba51c chromedriver + 525596\n                5   chromedriver                        0x0000000105cc907f chromedriver + 585855\n                6   chromedriver                        0x0000000105cb6f73 chromedriver + 511859\n                7   chromedriver                        0x0000000105c8d0e0 chromedriver + 340192\n                8   chromedriver                        0x0000000105c8e345 chromedriver + 344901\n                9   chromedriver                        0x00000001060d2d5f __gxx_personality_v0 + 299951\n                10  chromedriver                        0x00000001060e98db __gxx_personality_v0 + 393003\n                11  chromedriver                        0x00000001060ef85f __gxx_personality_v0 + 417455\n                12  chromedriver                        0x00000001060eb00a __gxx_personality_v0 + 398938\n                13  chromedriver                        0x00000001060c795c __gxx_personality_v0 + 253868\n                14  chromedriver                        0x0000000106106198 __gxx_personality_v0 + 509928\n                15  chromedriver                        0x0000000106106321 __gxx_personality_v0 + 510321\n                16  chromedriver                        0x000000010611d108 __gxx_personality_v0 + 603992\n                17  libsystem_pthread.dylib             0x00007ff808e01514 _pthread_start + 125\n                18  libsystem_pthread.dylib             0x00007ff808dfd02f thread_start + 15\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=96.0.4664.93)",
+    "statusTrace" : "0   chromedriver                        0x0000000106115bc9 __gxx_personality_v0 + 573977\n                1   chromedriver                        0x00000001060a29a3 __gxx_personality_v0 + 102387\n                2   chromedriver                        0x0000000105c64488 chromedriver + 173192\n                3   chromedriver                        0x0000000105c45194 chromedriver + 45460\n                4   chromedriver                        0x0000000105cba51c chromedriver + 525596\n                5   chromedriver                        0x0000000105cc907f chromedriver + 585855\n                6   chromedriver                        0x0000000105cb6f73 chromedriver + 511859\n                7   chromedriver                        0x0000000105c8d0e0 chromedriver + 340192\n                8   chromedriver                        0x0000000105c8e345 chromedriver + 344901\n                9   chromedriver                        0x00000001060d2d5f __gxx_personality_v0 + 299951\n                10  chromedriver                        0x00000001060e98db __gxx_personality_v0 + 393003\n                11  chromedriver                        0x00000001060ef85f __gxx_personality_v0 + 417455\n                12  chromedriver                        0x00000001060eb00a __gxx_personality_v0 + 398938\n                13  chromedriver                        0x00000001060c795c __gxx_personality_v0 + 253868\n                14  chromedriver                        0x0000000106106198 __gxx_personality_v0 + 509928\n                15  chromedriver                        0x0000000106106321 __gxx_personality_v0 + 510321\n                16  chromedriver                        0x000000010611d108 __gxx_personality_v0 + 603992\n                17  libsystem_pthread.dylib             0x00007ff808e01514 _pthread_start + 125\n                18  libsystem_pthread.dylib             0x00007ff808dfd02f thread_start + 15\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639017235013,
+        "stop" : 1639017258080,
+        "duration" : 23067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "229d4ddb1f055a9d",
+        "name" : "Request",
+        "source" : "229d4ddb1f055a9d.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639017258081,
+        "stop" : 1639017258108,
+        "duration" : 27
+      },
+      "status" : "broken",
+      "statusMessage" : "0   chromedriver                        0x0000000106115bc9 __gxx_personality_v0 + 573977\n                1   chromedriver                        0x00000001060a29a3 __gxx_personality_v0 + 102387\n                2   chromedriver                        0x0000000105c64488 chromedriver + 173192\n                3   chromedriver                        0x0000000105c45194 chromedriver + 45460\n                4   chromedriver                        0x0000000105cba51c chromedriver + 525596\n                5   chromedriver                        0x0000000105cc907f chromedriver + 585855\n                6   chromedriver                        0x0000000105cb6f73 chromedriver + 511859\n                7   chromedriver                        0x0000000105c8d0e0 chromedriver + 340192\n                8   chromedriver                        0x0000000105c8e345 chromedriver + 344901\n                9   chromedriver                        0x00000001060d2d5f __gxx_personality_v0 + 299951\n                10  chromedriver                        0x00000001060e98db __gxx_personality_v0 + 393003\n                11  chromedriver                        0x00000001060ef85f __gxx_personality_v0 + 417455\n                12  chromedriver                        0x00000001060eb00a __gxx_personality_v0 + 398938\n                13  chromedriver                        0x00000001060c795c __gxx_personality_v0 + 253868\n                14  chromedriver                        0x0000000106106198 __gxx_personality_v0 + 509928\n                15  chromedriver                        0x0000000106106321 __gxx_personality_v0 + 510321\n                16  chromedriver                        0x000000010611d108 __gxx_personality_v0 + 603992\n                17  libsystem_pthread.dylib             0x00007ff808e01514 _pthread_start + 125\n                18  libsystem_pthread.dylib             0x00007ff808dfd02f thread_start + 15\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1639017258096,
+          "stop" : 1639017258108,
+          "duration" : 12
+        },
+        "status" : "broken",
+        "statusMessage" : "0   chromedriver                        0x0000000106115bc9 __gxx_personality_v0 + 573977\n                1   chromedriver                        0x00000001060a29a3 __gxx_personality_v0 + 102387\n                2   chromedriver                        0x0000000105c64488 chromedriver + 173192\n                3   chromedriver                        0x0000000105c45194 chromedriver + 45460\n                4   chromedriver                        0x0000000105cba51c chromedriver + 525596\n                5   chromedriver                        0x0000000105cc907f chromedriver + 585855\n                6   chromedriver                        0x0000000105cb6f73 chromedriver + 511859\n                7   chromedriver                        0x0000000105c8d0e0 chromedriver + 340192\n                8   chromedriver                        0x0000000105c8e345 chromedriver + 344901\n                9   chromedriver                        0x00000001060d2d5f __gxx_personality_v0 + 299951\n                10  chromedriver                        0x00000001060e98db __gxx_personality_v0 + 393003\n                11  chromedriver                        0x00000001060ef85f __gxx_personality_v0 + 417455\n                12  chromedriver                        0x00000001060eb00a __gxx_personality_v0 + 398938\n                13  chromedriver                        0x00000001060c795c __gxx_personality_v0 + 253868\n                14  chromedriver                        0x0000000106106198 __gxx_personality_v0 + 509928\n                15  chromedriver                        0x0000000106106321 __gxx_personality_v0 + 510321\n                16  chromedriver                        0x000000010611d108 __gxx_personality_v0 + 603992\n                17  libsystem_pthread.dylib             0x00007ff808e01514 _pthread_start + 125\n                18  libsystem_pthread.dylib             0x00007ff808dfd02f thread_start + 15\n                ",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "1f65e0ef9e688ea3",
+        "name" : "Request",
+        "source" : "1f65e0ef9e688ea3.json",
+        "type" : "application/json",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b5263fd07acce44.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}
