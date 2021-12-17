@@ -1,0 +1,84 @@
+{
+  "uid" : "af3c3b75a92c7436",
+  "name" : "failed sign up with repeated username and email",
+  "fullName" : "Sign up the account.failed sign up with repeated username and email",
+  "historyId" : "46d2b49a1c407303712321106631fd13",
+  "time" : {
+    "start" : 1639127851347,
+    "stop" : 1639127857584,
+    "duration" : 6237
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed sign up with repeated username and email"
+  }, {
+    "name" : "package",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "167f90deeb9ba058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639127654205,
+        "stop" : 1639127662169,
+        "duration" : 7964
+      }
+    }, {
+      "uid" : "351086844b76e32b",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.error-messages`) to have text\n                \n                - Expected  - 0\n                + Received  + 1\n                \n                  email has already been taken\n                + username has already been taken",
+      "time" : {
+        "start" : 1639127428824,
+        "stop" : 1639127443340,
+        "duration" : 14516
+      }
+    }, {
+      "uid" : "ea8fc3aac54e8f48",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.error-messages`) to have text\n                \n                - Expected  - 0\n                + Received  + 1\n                \n                + email has already been taken\n                  username has already been taken",
+      "time" : {
+        "start" : 1639127338278,
+        "stop" : 1639127354004,
+        "duration" : 15726
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af3c3b75a92c7436.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

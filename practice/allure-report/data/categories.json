@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=96.0.4664.93)",
       "children" : [ {
         "name" : "should login with valid credentials",
-        "uid" : "6b5263fd07acce44",
+        "uid" : "af1a0598cef742cd",
         "parentUid" : "1b9abe72f4985ca6f6252c8aab41a71f",
         "status" : "broken",
         "time" : {
@@ -20,7 +19,25 @@
         "parameters" : [ "chrome-96.0.4664.93" ]
       } ],
       "uid" : "1b9abe72f4985ca6f6252c8aab41a71f"
+    }, {
+      "name" : "Can't call setValue on element with selector \"[placeholder = 'Article Title']\" because element wasn't found",
+      "children" : [ {
+        "name" : "failed beacuse title not unique",
+        "uid" : "e13d97c3d240d168",
+        "parentUid" : "a45e996db09622d82efee6b371c37c67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639664589559,
+          "stop" : 1639664599752,
+          "duration" : 10193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      } ],
+      "uid" : "a45e996db09622d82efee6b371c37c67"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

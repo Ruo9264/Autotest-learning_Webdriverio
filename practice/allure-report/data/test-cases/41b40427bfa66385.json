@@ -1,0 +1,58 @@
+{
+  "uid" : "41b40427bfa66385",
+  "name" : "failed sign up with repeated email",
+  "fullName" : "Sign up the account.failed sign up with repeated email",
+  "historyId" : "d317969bc81b334bceb1168007771e31",
+  "time" : {
+    "start" : 1639665031558,
+    "stop" : 1639665036483,
+    "duration" : 4925
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed sign up with repeated email"
+  }, {
+    "name" : "package",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41b40427bfa66385.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "b0fec68024fa9a34",
+  "name" : "delete first article",
+  "fullName" : "delete article.delete first article",
+  "historyId" : "614925e8b192c12465089e073de44d22",
+  "time" : {
+    "start" : 1639129515796,
+    "stop" : 1639129528014,
+    "duration" : 12218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "delete article"
+  }, {
+    "name" : "testClass",
+    "value" : "delete article"
+  }, {
+    "name" : "testMethod",
+    "value" : "delete first article"
+  }, {
+    "name" : "package",
+    "value" : "delete article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "833af1ea29d1ea65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639129409233,
+        "stop" : 1639129420399,
+        "duration" : 11166
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0fec68024fa9a34.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

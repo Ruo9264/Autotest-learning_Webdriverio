@@ -1,0 +1,100 @@
+{
+  "uid" : "dbe4ce11726d87b5",
+  "name" : "successfully write a new article",
+  "fullName" : "write new articles.successfully write a new article",
+  "historyId" : "6226ba21403e887b536faaa50aa8287a",
+  "time" : {
+    "start" : 1639664908761,
+    "stop" : 1639664913277,
+    "duration" : 4516
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfully write a new article"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f30f7fc28f174a03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664835665,
+        "stop" : 1639664840064,
+        "duration" : 4399
+      }
+    }, {
+      "uid" : "52fc428ddcd243c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664759932,
+        "stop" : 1639664764251,
+        "duration" : 4319
+      }
+    }, {
+      "uid" : "63fa2bb537100380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664015396,
+        "stop" : 1639664021818,
+        "duration" : 6422
+      }
+    }, {
+      "uid" : "26a8247e7267245c",
+      "status" : "broken",
+      "statusDetails" : "invalid element state: Element is not currently interactable and may not be manipulated\n                  (Session info: chrome=96.0.4664.110)",
+      "time" : {
+        "start" : 1639663712017,
+        "stop" : 1639663712235,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "8dd337b699878a6c",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"=Sign in\" because element wasn't found",
+      "time" : {
+        "start" : 1639663609710,
+        "stop" : 1639663623194,
+        "duration" : 13484
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbe4ce11726d87b5.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

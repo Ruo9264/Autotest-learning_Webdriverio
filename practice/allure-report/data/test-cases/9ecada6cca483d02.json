@@ -1,0 +1,90 @@
+{
+  "uid" : "9ecada6cca483d02",
+  "name" : "failed because blank title",
+  "fullName" : "write new articles.failed because blank title",
+  "historyId" : "c523887629d04a96764a060b280a2192",
+  "time" : {
+    "start" : 1639664893353,
+    "stop" : 1639664903199,
+    "duration" : 9846
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed because blank title"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c0edc6c72290a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664822250,
+        "stop" : 1639664833156,
+        "duration" : 10906
+      }
+    }, {
+      "uid" : "eaf9a0db764715f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664747423,
+        "stop" : 1639664757560,
+        "duration" : 10137
+      }
+    }, {
+      "uid" : "86a5aeae6e0b2e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664573104,
+        "stop" : 1639664583145,
+        "duration" : 10041
+      }
+    }, {
+      "uid" : "a59820e3943659f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664479990,
+        "stop" : 1639664488817,
+        "duration" : 8827
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ecada6cca483d02.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

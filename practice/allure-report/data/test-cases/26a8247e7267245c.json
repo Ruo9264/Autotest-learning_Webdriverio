@@ -1,0 +1,58 @@
+{
+  "uid" : "26a8247e7267245c",
+  "name" : "successfully write a new article",
+  "fullName" : "write new articles.successfully write a new article",
+  "historyId" : "6226ba21403e887b536faaa50aa8287a",
+  "time" : {
+    "start" : 1639663712017,
+    "stop" : 1639663712235,
+    "duration" : 218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid element state: Element is not currently interactable and may not be manipulated\n                  (Session info: chrome=96.0.4664.110)",
+  "statusTrace" : "0   chromedriver                        0x0000000104c6abc9 __gxx_personality_v0 + 573977\n                1   chromedriver                        0x0000000104bf79a3 __gxx_personality_v0 + 102387\n                2   chromedriver                        0x00000001047b9488 chromedriver + 173192\n                3   chromedriver                        0x00000001047bc301 chromedriver + 185089\n                4   chromedriver                        0x00000001047bc121 chromedriver + 184609\n                5   chromedriver                        0x00000001047bc3bc chromedriver + 185276\n                6   chromedriver                        0x00000001047e5cb3 chromedriver + 355507\n                7   chromedriver                        0x000000010480bd52 chromedriver + 511314\n                8   chromedriver                        0x00000001047e37f5 chromedriver + 346101\n                9   chromedriver                        0x000000010480bfce chromedriver + 511950\n                10  chromedriver                        0x000000010481e961 chromedriver + 588129\n                11  chromedriver                        0x000000010480bf73 chromedriver + 511859\n                12  chromedriver                        0x00000001047e20e0 chromedriver + 340192\n                13  chromedriver                        0x00000001047e3345 chromedriver + 344901\n                14  chromedriver                        0x0000000104c27d5f __gxx_personality_v0 + 299951\n                15  chromedriver                        0x0000000104c3e8db __gxx_personality_v0 + 393003\n                16  chromedriver                        0x0000000104c4485f __gxx_personality_v0 + 417455\n                17  chromedriver                        0x0000000104c4000a __gxx_personality_v0 + 398938\n                18  chromedriver                        0x0000000104c1c95c __gxx_personality_v0 + 253868\n                19  chromedriver                        0x0000000104c5b198 __gxx_personality_v0 + 509928\n                20  chromedriver                        0x0000000104c5b321 __gxx_personality_v0 + 510321\n                21  chromedriver                        0x0000000104c72108 __gxx_personality_v0 + 603992\n                22  libsystem_pthread.dylib             0x00007ff8197a5514 _pthread_start + 125\n                23  libsystem_pthread.dylib             0x00007ff8197a102f thread_start + 15\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfully write a new article"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26a8247e7267245c.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "238b3c7db0f9af51",
+  "name" : "failed because blank content",
+  "fullName" : "write new articles.failed because blank content",
+  "historyId" : "7fa10390cb5eebad0df6fcd4cfb708ee",
+  "time" : {
+    "start" : 1639664905982,
+    "stop" : 1639664908761,
+    "duration" : 2779
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed because blank content"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25b3afb7f032de7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664834434,
+        "stop" : 1639664835664,
+        "duration" : 1230
+      }
+    }, {
+      "uid" : "80c1c0cec6630541",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664758772,
+        "stop" : 1639664759931,
+        "duration" : 1159
+      }
+    }, {
+      "uid" : "655122769718fd5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664584428,
+        "stop" : 1639664586205,
+        "duration" : 1777
+      }
+    }, {
+      "uid" : "d7f4219dfa8265bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639664490095,
+        "stop" : 1639664491371,
+        "duration" : 1276
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "238b3c7db0f9af51.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

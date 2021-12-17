@@ -1,0 +1,99 @@
+{
+  "uid" : "1e9e809ee7b7e223",
+  "name" : "post a blank comment",
+  "fullName" : "post comment.post a blank comment",
+  "historyId" : "3d8f67a29f6695077168e045f616b10e",
+  "time" : {
+    "start" : 1639129931862,
+    "stop" : 1639129945344,
+    "duration" : 13482
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "post comment"
+  }, {
+    "name" : "testClass",
+    "value" : "post comment"
+  }, {
+    "name" : "testMethod",
+    "value" : "post a blank comment"
+  }, {
+    "name" : "package",
+    "value" : "post comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d67169ff403614c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639129880120,
+        "stop" : 1639129891745,
+        "duration" : 11625
+      }
+    }, {
+      "uid" : "eb7dddb295a417c8",
+      "status" : "broken",
+      "statusDetails" : "ArticlecatalogPage.account is not a function",
+      "time" : {
+        "start" : 1639129854939,
+        "stop" : 1639129855325,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "a41b1d74d3c0a880",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639129670233,
+        "stop" : 1639129681389,
+        "duration" : 11156
+      }
+    }, {
+      "uid" : "4ae074420d268e97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639128119284,
+        "stop" : 1639128133299,
+        "duration" : 14015
+      }
+    }, {
+      "uid" : "fda6774594899881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639126941123,
+        "stop" : 1639126954079,
+        "duration" : 12956
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e9e809ee7b7e223.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

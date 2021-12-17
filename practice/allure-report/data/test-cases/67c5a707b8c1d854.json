@@ -1,0 +1,56 @@
+{
+  "uid" : "67c5a707b8c1d854",
+  "name" : "failed because title",
+  "fullName" : "write new articles.failed because title",
+  "historyId" : "65e9cd11345c39a6de42d78881e86fba",
+  "time" : {
+    "start" : 1639663585906,
+    "stop" : 1639663596385,
+    "duration" : 10479
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed because title"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67c5a707b8c1d854.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

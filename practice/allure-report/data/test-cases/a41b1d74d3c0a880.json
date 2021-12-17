@@ -1,0 +1,56 @@
+{
+  "uid" : "a41b1d74d3c0a880",
+  "name" : "post a blank comment",
+  "fullName" : "post comment.post a blank comment",
+  "historyId" : "3d8f67a29f6695077168e045f616b10e",
+  "time" : {
+    "start" : 1639129670233,
+    "stop" : 1639129681389,
+    "duration" : 11156
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "post comment"
+  }, {
+    "name" : "testClass",
+    "value" : "post comment"
+  }, {
+    "name" : "testMethod",
+    "value" : "post a blank comment"
+  }, {
+    "name" : "package",
+    "value" : "post comment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a41b1d74d3c0a880.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

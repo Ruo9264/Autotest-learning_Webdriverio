@@ -1,0 +1,56 @@
+{
+  "uid" : "52fc428ddcd243c6",
+  "name" : "successfully write a new article",
+  "fullName" : "write new articles.successfully write a new article",
+  "historyId" : "6226ba21403e887b536faaa50aa8287a",
+  "time" : {
+    "start" : 1639664759932,
+    "stop" : 1639664764251,
+    "duration" : 4319
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfully write a new article"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52fc428ddcd243c6.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

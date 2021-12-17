@@ -12,6 +12,6 @@ describe('delete article', () => {
                 timeoutMsg: "wait the page load extremely",
             });
         await ArticledetailPage.delete_article();
-        await browser.pause(2000);
+        await browser.pause(1000);
     })
 })

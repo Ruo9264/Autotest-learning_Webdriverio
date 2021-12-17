@@ -1,0 +1,594 @@
+{
+  "uid" : "d970fcf99c10332a",
+  "name" : "should allow access with correct info",
+  "fullName" : "Sign in the account.should allow access with correct info",
+  "historyId" : "bfcd85fc78abbbc2a65c5bd8b620b7c3",
+  "time" : {
+    "start" : 1639017250246,
+    "stop" : 1639017263653,
+    "duration" : 13407
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"=Sign in\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"=Sign in\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639017250246,
+        "stop" : 1639017250626,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "885cf7ba1f1065b1",
+        "name" : "Request",
+        "source" : "885cf7ba1f1065b1.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639017253627,
+        "stop" : 1639017253636,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bac84a54e919f95f",
+        "name" : "Request",
+        "source" : "bac84a54e919f95f.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "183a0a7447565b6a",
+        "name" : "Response",
+        "source" : "183a0a7447565b6a.json",
+        "type" : "application/json",
+        "size" : 1917
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639017253637,
+        "stop" : 1639017253644,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea152c4ce41f2018",
+        "name" : "Request",
+        "source" : "ea152c4ce41f2018.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "356532d67056f1b2",
+        "name" : "Response",
+        "source" : "356532d67056f1b2.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639017254138,
+        "stop" : 1639017254144,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e2b97f714f97cd2",
+        "name" : "Request",
+        "source" : "1e2b97f714f97cd2.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "8c906176943e1191",
+        "name" : "Response",
+        "source" : "8c906176943e1191.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639017254638,
+        "stop" : 1639017254646,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aabfdb24c265b899",
+        "name" : "Request",
+        "source" : "aabfdb24c265b899.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "8cdb90c5dd7bc59a",
+        "name" : "Response",
+        "source" : "8cdb90c5dd7bc59a.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639017255138,
+        "stop" : 1639017255146,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "977376ae7fb7ce85",
+        "name" : "Request",
+        "source" : "977376ae7fb7ce85.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "a27240d388d7c2b4",
+        "name" : "Response",
+        "source" : "a27240d388d7c2b4.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639017255638,
+        "stop" : 1639017263653,
+        "duration" : 8015
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1639017256138,
+          "stop" : 1639017263653,
+          "duration" : 7515
+        },
+        "status" : "broken",
+        "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/elements",
+          "time" : {
+            "start" : 1639017256638,
+            "stop" : 1639017263653,
+            "duration" : 7015
+          },
+          "status" : "broken",
+          "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1639017257139,
+              "stop" : 1639017263653,
+              "duration" : 6514
+            },
+            "status" : "broken",
+            "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/elements",
+              "time" : {
+                "start" : 1639017257637,
+                "stop" : 1639017263653,
+                "duration" : 6016
+              },
+              "status" : "broken",
+              "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/elements",
+                "time" : {
+                  "start" : 1639017258138,
+                  "stop" : 1639017263653,
+                  "duration" : 5515
+                },
+                "status" : "broken",
+                "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                "steps" : [ {
+                  "name" : "POST /session/:sessionId/elements",
+                  "time" : {
+                    "start" : 1639017258639,
+                    "stop" : 1639017263653,
+                    "duration" : 5014
+                  },
+                  "status" : "broken",
+                  "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                  "steps" : [ {
+                    "name" : "POST /session/:sessionId/elements",
+                    "time" : {
+                      "start" : 1639017259138,
+                      "stop" : 1639017263653,
+                      "duration" : 4515
+                    },
+                    "status" : "broken",
+                    "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                    "steps" : [ {
+                      "name" : "POST /session/:sessionId/elements",
+                      "time" : {
+                        "start" : 1639017259637,
+                        "stop" : 1639017263653,
+                        "duration" : 4016
+                      },
+                      "status" : "broken",
+                      "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                      "steps" : [ {
+                        "name" : "POST /session/:sessionId/elements",
+                        "time" : {
+                          "start" : 1639017260138,
+                          "stop" : 1639017263653,
+                          "duration" : 3515
+                        },
+                        "status" : "broken",
+                        "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                        "steps" : [ {
+                          "name" : "POST /session/:sessionId/elements",
+                          "time" : {
+                            "start" : 1639017260638,
+                            "stop" : 1639017263653,
+                            "duration" : 3015
+                          },
+                          "status" : "broken",
+                          "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                          "steps" : [ {
+                            "name" : "POST /session/:sessionId/elements",
+                            "time" : {
+                              "start" : 1639017261139,
+                              "stop" : 1639017263653,
+                              "duration" : 2514
+                            },
+                            "status" : "broken",
+                            "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                            "steps" : [ {
+                              "name" : "POST /session/:sessionId/elements",
+                              "time" : {
+                                "start" : 1639017261639,
+                                "stop" : 1639017263653,
+                                "duration" : 2014
+                              },
+                              "status" : "broken",
+                              "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                              "steps" : [ {
+                                "name" : "POST /session/:sessionId/elements",
+                                "time" : {
+                                  "start" : 1639017262138,
+                                  "stop" : 1639017263653,
+                                  "duration" : 1515
+                                },
+                                "status" : "broken",
+                                "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                                "steps" : [ {
+                                  "name" : "POST /session/:sessionId/elements",
+                                  "time" : {
+                                    "start" : 1639017262638,
+                                    "stop" : 1639017263653,
+                                    "duration" : 1015
+                                  },
+                                  "status" : "broken",
+                                  "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                                  "steps" : [ {
+                                    "name" : "POST /session/:sessionId/elements",
+                                    "time" : {
+                                      "start" : 1639017263138,
+                                      "stop" : 1639017263653,
+                                      "duration" : 515
+                                    },
+                                    "status" : "broken",
+                                    "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                                    "steps" : [ {
+                                      "name" : "GET /session/:sessionId/screenshot",
+                                      "time" : {
+                                        "start" : 1639017263637,
+                                        "stop" : 1639017263653,
+                                        "duration" : 16
+                                      },
+                                      "status" : "broken",
+                                      "statusMessage" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:20:5)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/sign_in.js:10:5)",
+                                      "steps" : [ ],
+                                      "attachments" : [ ],
+                                      "parameters" : [ ],
+                                      "stepsCount" : 0,
+                                      "attachmentsCount" : 0,
+                                      "shouldDisplayMessage" : true,
+                                      "hasContent" : true
+                                    } ],
+                                    "attachments" : [ {
+                                      "uid" : "61630de4966f8026",
+                                      "name" : "Request",
+                                      "source" : "61630de4966f8026.json",
+                                      "type" : "application/json",
+                                      "size" : 48
+                                    } ],
+                                    "parameters" : [ ],
+                                    "stepsCount" : 1,
+                                    "attachmentsCount" : 1,
+                                    "shouldDisplayMessage" : false,
+                                    "hasContent" : true
+                                  } ],
+                                  "attachments" : [ {
+                                    "uid" : "ba9f6c8d3760fd19",
+                                    "name" : "Request",
+                                    "source" : "ba9f6c8d3760fd19.json",
+                                    "type" : "application/json",
+                                    "size" : 48
+                                  } ],
+                                  "parameters" : [ ],
+                                  "stepsCount" : 2,
+                                  "attachmentsCount" : 2,
+                                  "shouldDisplayMessage" : false,
+                                  "hasContent" : true
+                                } ],
+                                "attachments" : [ {
+                                  "uid" : "831bbcaccdabfacd",
+                                  "name" : "Request",
+                                  "source" : "831bbcaccdabfacd.json",
+                                  "type" : "application/json",
+                                  "size" : 48
+                                } ],
+                                "parameters" : [ ],
+                                "stepsCount" : 3,
+                                "attachmentsCount" : 3,
+                                "shouldDisplayMessage" : false,
+                                "hasContent" : true
+                              } ],
+                              "attachments" : [ {
+                                "uid" : "f4f0550fec4a6350",
+                                "name" : "Request",
+                                "source" : "f4f0550fec4a6350.json",
+                                "type" : "application/json",
+                                "size" : 48
+                              } ],
+                              "parameters" : [ ],
+                              "stepsCount" : 4,
+                              "attachmentsCount" : 4,
+                              "shouldDisplayMessage" : false,
+                              "hasContent" : true
+                            } ],
+                            "attachments" : [ {
+                              "uid" : "c15c533b46e830c1",
+                              "name" : "Request",
+                              "source" : "c15c533b46e830c1.json",
+                              "type" : "application/json",
+                              "size" : 48
+                            } ],
+                            "parameters" : [ ],
+                            "stepsCount" : 5,
+                            "attachmentsCount" : 5,
+                            "shouldDisplayMessage" : false,
+                            "hasContent" : true
+                          } ],
+                          "attachments" : [ {
+                            "uid" : "f1a7a3b69813fc87",
+                            "name" : "Request",
+                            "source" : "f1a7a3b69813fc87.json",
+                            "type" : "application/json",
+                            "size" : 48
+                          } ],
+                          "parameters" : [ ],
+                          "stepsCount" : 6,
+                          "attachmentsCount" : 6,
+                          "shouldDisplayMessage" : false,
+                          "hasContent" : true
+                        } ],
+                        "attachments" : [ {
+                          "uid" : "9c20702a4600f6de",
+                          "name" : "Request",
+                          "source" : "9c20702a4600f6de.json",
+                          "type" : "application/json",
+                          "size" : 48
+                        } ],
+                        "parameters" : [ ],
+                        "stepsCount" : 7,
+                        "attachmentsCount" : 7,
+                        "shouldDisplayMessage" : false,
+                        "hasContent" : true
+                      } ],
+                      "attachments" : [ {
+                        "uid" : "927725123eb3260b",
+                        "name" : "Request",
+                        "source" : "927725123eb3260b.json",
+                        "type" : "application/json",
+                        "size" : 48
+                      } ],
+                      "parameters" : [ ],
+                      "stepsCount" : 8,
+                      "attachmentsCount" : 8,
+                      "shouldDisplayMessage" : false,
+                      "hasContent" : true
+                    } ],
+                    "attachments" : [ {
+                      "uid" : "8b6e52a38a3ff90b",
+                      "name" : "Request",
+                      "source" : "8b6e52a38a3ff90b.json",
+                      "type" : "application/json",
+                      "size" : 48
+                    } ],
+                    "parameters" : [ ],
+                    "stepsCount" : 9,
+                    "attachmentsCount" : 9,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ {
+                    "uid" : "23dbffa33f6cd318",
+                    "name" : "Request",
+                    "source" : "23dbffa33f6cd318.json",
+                    "type" : "application/json",
+                    "size" : 48
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 10,
+                  "attachmentsCount" : 10,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ {
+                  "uid" : "c9199d28c9412cf",
+                  "name" : "Request",
+                  "source" : "c9199d28c9412cf.json",
+                  "type" : "application/json",
+                  "size" : 48
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 11,
+                "attachmentsCount" : 11,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "6548c53af4b72bc3",
+                "name" : "Request",
+                "source" : "6548c53af4b72bc3.json",
+                "type" : "application/json",
+                "size" : 48
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 12,
+              "attachmentsCount" : 12,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "653af28ce786f2f5",
+              "name" : "Request",
+              "source" : "653af28ce786f2f5.json",
+              "type" : "application/json",
+              "size" : 48
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 13,
+            "attachmentsCount" : 13,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "355dba615b3deb46",
+            "name" : "Request",
+            "source" : "355dba615b3deb46.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 14,
+          "attachmentsCount" : 14,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "354bf01eeab58c99",
+          "name" : "Request",
+          "source" : "354bf01eeab58c99.json",
+          "type" : "application/json",
+          "size" : 48
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 15,
+        "attachmentsCount" : 15,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "2e762cd30b65fe37",
+        "name" : "Request",
+        "source" : "2e762cd30b65fe37.json",
+        "type" : "application/json",
+        "size" : 48
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 16,
+      "attachmentsCount" : 16,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "attachmentsCount" : 27,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Sign in the account"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign in the account"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow access with correct info"
+  }, {
+    "name" : "package",
+    "value" : "Sign in the account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d970fcf99c10332a.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

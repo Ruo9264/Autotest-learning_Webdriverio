@@ -1,0 +1,99 @@
+{
+  "uid" : "265f1e49acda3b90",
+  "name" : "should allow access with correct info",
+  "fullName" : "Sign in the account.should allow access with correct info",
+  "historyId" : "bfcd85fc78abbbc2a65c5bd8b620b7c3",
+  "time" : {
+    "start" : 1639387535445,
+    "stop" : 1639387540259,
+    "duration" : 4814
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sign in the account"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign in the account"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow access with correct info"
+  }, {
+    "name" : "package",
+    "value" : "Sign in the account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "90427f44a452195d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639128002428,
+        "stop" : 1639128006827,
+        "duration" : 4399
+      }
+    }, {
+      "uid" : "d970fcf99c10332a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"=Sign in\" because element wasn't found",
+      "time" : {
+        "start" : 1639017250246,
+        "stop" : 1639017263653,
+        "duration" : 13407
+      }
+    }, {
+      "uid" : "a07a8a9a621ec683",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638949732137,
+        "stop" : 1638949736645,
+        "duration" : 4508
+      }
+    }, {
+      "uid" : "19e2c1c6fffe8c1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638947942445,
+        "stop" : 1638947946961,
+        "duration" : 4516
+      }
+    }, {
+      "uid" : "610605f08d266263",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638947818792,
+        "stop" : 1638947823271,
+        "duration" : 4479
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "265f1e49acda3b90.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

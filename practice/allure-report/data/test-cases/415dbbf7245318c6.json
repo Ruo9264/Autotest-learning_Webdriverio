@@ -1,0 +1,58 @@
+{
+  "uid" : "415dbbf7245318c6",
+  "name" : "failed beacuse title not unique",
+  "fullName" : "write new articles.failed beacuse title not unique",
+  "historyId" : "d56ec0bfbf68f496f44a66a321629cb6",
+  "time" : {
+    "start" : 1639664491731,
+    "stop" : 1639664491944,
+    "duration" : 213
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid element state: Element is not currently interactable and may not be manipulated\n                  (Session info: chrome=96.0.4664.110)",
+  "statusTrace" : "0   chromedriver                        0x000000010a032bc9 __gxx_personality_v0 + 573977\n                1   chromedriver                        0x0000000109fbf9a3 __gxx_personality_v0 + 102387\n                2   chromedriver                        0x0000000109b81488 chromedriver + 173192\n                3   chromedriver                        0x0000000109b84301 chromedriver + 185089\n                4   chromedriver                        0x0000000109b84121 chromedriver + 184609\n                5   chromedriver                        0x0000000109b843bc chromedriver + 185276\n                6   chromedriver                        0x0000000109badcb3 chromedriver + 355507\n                7   chromedriver                        0x0000000109bd3d52 chromedriver + 511314\n                8   chromedriver                        0x0000000109bab7f5 chromedriver + 346101\n                9   chromedriver                        0x0000000109bd3fce chromedriver + 511950\n                10  chromedriver                        0x0000000109be6961 chromedriver + 588129\n                11  chromedriver                        0x0000000109bd3f73 chromedriver + 511859\n                12  chromedriver                        0x0000000109baa0e0 chromedriver + 340192\n                13  chromedriver                        0x0000000109bab345 chromedriver + 344901\n                14  chromedriver                        0x0000000109fefd5f __gxx_personality_v0 + 299951\n                15  chromedriver                        0x000000010a0068db __gxx_personality_v0 + 393003\n                16  chromedriver                        0x000000010a00c85f __gxx_personality_v0 + 417455\n                17  chromedriver                        0x000000010a00800a __gxx_personality_v0 + 398938\n                18  chromedriver                        0x0000000109fe495c __gxx_personality_v0 + 253868\n                19  chromedriver                        0x000000010a023198 __gxx_personality_v0 + 509928\n                20  chromedriver                        0x000000010a023321 __gxx_personality_v0 + 510321\n                21  chromedriver                        0x000000010a03a108 __gxx_personality_v0 + 603992\n                22  libsystem_pthread.dylib             0x00007ff8197a5514 _pthread_start + 125\n                23  libsystem_pthread.dylib             0x00007ff8197a102f thread_start + 15\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed beacuse title not unique"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "415dbbf7245318c6.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

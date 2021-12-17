@@ -24,10 +24,10 @@ describe("Sign up the account", () => {
     it("successfully sign up the account", async () => {
         await SignupPage.open();
         //await SignupPage.signup("Royy","royy@9264.com","Royy9264786")
-        await SignupPage.signup("xiaoyuan","binggan.com", "xiaoyuanbinggan");
+        await SignupPage.signup("xiaoyuan1","binggan@.com", "xiaoyuanbinggan");
 
         await browser.waitUntil(
-            async () => (await browser.$("=xiaoyuan").getText()) === "xiaoyuan",
+            async () => (await browser.$("=xiaoyuan1").getText()) === "xiaoyuan1",
             {
                 timeout: 3000,
                 timeoutMsg: "wait the page load extremely and successfully sign in",

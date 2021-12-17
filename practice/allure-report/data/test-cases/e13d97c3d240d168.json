@@ -1,0 +1,73 @@
+{
+  "uid" : "e13d97c3d240d168",
+  "name" : "failed beacuse title not unique",
+  "fullName" : "write new articles.failed beacuse title not unique",
+  "historyId" : "d56ec0bfbf68f496f44a66a321629cb6",
+  "time" : {
+    "start" : 1639664589559,
+    "stop" : 1639664599752,
+    "duration" : 10193
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call setValue on element with selector \"[placeholder = 'Article Title']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"[placeholder = 'Article Title']\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async New_article_page.writearticle (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/new_article_page.js:40:9)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/new_article.js:40:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed beacuse title not unique"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "415dbbf7245318c6",
+      "status" : "broken",
+      "statusDetails" : "invalid element state: Element is not currently interactable and may not be manipulated\n                  (Session info: chrome=96.0.4664.110)",
+      "time" : {
+        "start" : 1639664491731,
+        "stop" : 1639664491944,
+        "duration" : 213
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e13d97c3d240d168.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

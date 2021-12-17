@@ -1,0 +1,58 @@
+{
+  "uid" : "516e40b349b90d46",
+  "name" : "delete first article",
+  "fullName" : "delete article.delete first article",
+  "historyId" : "eba98d413da6c4202bfbe918a03a1a5f",
+  "time" : {
+    "start" : 1639664543149,
+    "stop" : 1639664556526,
+    "duration" : 13377
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "wait the page load extremely",
+  "statusTrace" : "Error: wait the page load extremely\n                    at /Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Browser.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/delete_article.js:8:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "delete article"
+  }, {
+    "name" : "testClass",
+    "value" : "delete article"
+  }, {
+    "name" : "testMethod",
+    "value" : "delete first article"
+  }, {
+    "name" : "package",
+    "value" : "delete article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "516e40b349b90d46.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

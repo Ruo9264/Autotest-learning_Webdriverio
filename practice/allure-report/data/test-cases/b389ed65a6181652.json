@@ -1,0 +1,82 @@
+{
+  "uid" : "b389ed65a6181652",
+  "name" : "failed sign up with repeated username",
+  "fullName" : "Sign up the account.failed sign up with repeated username",
+  "historyId" : "ac58c9e43889dafba7a4fcbf7cada14",
+  "time" : {
+    "start" : 1639127857584,
+    "stop" : 1639127862100,
+    "duration" : 4516
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed sign up with repeated username"
+  }, {
+    "name" : "package",
+    "value" : "Sign up the account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b29cefbca0dee63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639127662169,
+        "stop" : 1639127666656,
+        "duration" : 4487
+      }
+    }, {
+      "uid" : "bcbe933b128cf273",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639127443341,
+        "stop" : 1639127448517,
+        "duration" : 5176
+      }
+    }, {
+      "uid" : "7f969149f8e0966d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639127354004,
+        "stop" : 1639127359629,
+        "duration" : 5625
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b389ed65a6181652.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

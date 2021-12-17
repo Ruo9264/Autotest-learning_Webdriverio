@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639663701090' stop='1639663712236'>
+    <name>write new articles</name>
+    <title>write new articles</title>
+    <test-cases>
+        <test-case start='1639663701091' status='passed' stop='1639663711738'>
+            <name>failed because title</name>
+            <title>failed because title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639663711739' status='passed' stop='1639663712016'>
+            <name>failed because description</name>
+            <title>failed because description</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1639663712017' status='broken' stop='1639663712235'>
+            <name>successfully write a new article</name>
+            <title>successfully write a new article</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid element state: Element is not currently interactable and may not be manipulated
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>0   chromedriver                        0x0000000104c6abc9 __gxx_personality_v0 + 573977
+                1   chromedriver                        0x0000000104bf79a3 __gxx_personality_v0 + 102387
+                2   chromedriver                        0x00000001047b9488 chromedriver + 173192
+                3   chromedriver                        0x00000001047bc301 chromedriver + 185089
+                4   chromedriver                        0x00000001047bc121 chromedriver + 184609
+                5   chromedriver                        0x00000001047bc3bc chromedriver + 185276
+                6   chromedriver                        0x00000001047e5cb3 chromedriver + 355507
+                7   chromedriver                        0x000000010480bd52 chromedriver + 511314
+                8   chromedriver                        0x00000001047e37f5 chromedriver + 346101
+                9   chromedriver                        0x000000010480bfce chromedriver + 511950
+                10  chromedriver                        0x000000010481e961 chromedriver + 588129
+                11  chromedriver                        0x000000010480bf73 chromedriver + 511859
+                12  chromedriver                        0x00000001047e20e0 chromedriver + 340192
+                13  chromedriver                        0x00000001047e3345 chromedriver + 344901
+                14  chromedriver                        0x0000000104c27d5f __gxx_personality_v0 + 299951
+                15  chromedriver                        0x0000000104c3e8db __gxx_personality_v0 + 393003
+                16  chromedriver                        0x0000000104c4485f __gxx_personality_v0 + 417455
+                17  chromedriver                        0x0000000104c4000a __gxx_personality_v0 + 398938
+                18  chromedriver                        0x0000000104c1c95c __gxx_personality_v0 + 253868
+                19  chromedriver                        0x0000000104c5b198 __gxx_personality_v0 + 509928
+                20  chromedriver                        0x0000000104c5b321 __gxx_personality_v0 + 510321
+                21  chromedriver                        0x0000000104c72108 __gxx_personality_v0 + 603992
+                22  libsystem_pthread.dylib             0x00007ff8197a5514 _pthread_start + 125
+                23  libsystem_pthread.dylib             0x00007ff8197a102f thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

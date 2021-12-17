@@ -1,0 +1,58 @@
+{
+  "uid" : "a812cd0b69a5c000",
+  "name" : "failed because description",
+  "fullName" : "write new articles.failed because description",
+  "historyId" : "8117b26296ede5a9551f8a3922bc612f",
+  "time" : {
+    "start" : 1639663596385,
+    "stop" : 1639663609710,
+    "duration" : 13325
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"=Sign in\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"=Sign in\" because element wasn't found\n                    at implicitWait (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/runner/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Sign_in_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/sign_in_page.js:16:9)\n                    at async New_article_page.open (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/pageobjects/new_article_page.js:17:9)\n                    at async Context.<anonymous> (/Users/ruo.yang/Documents/Learning/Programs/Webdriverio_/practice/test/specs/new_article.js:9:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "write new articles"
+  }, {
+    "name" : "testClass",
+    "value" : "write new articles"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed because description"
+  }, {
+    "name" : "package",
+    "value" : "write new articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a812cd0b69a5c000.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
